@@ -87,7 +87,6 @@
             this.author.classList.remove('complete');
 
             this.hideSubmit();
-
         }
 
         feedback(customer) {
@@ -136,10 +135,8 @@
            </div>`)
 
            customerContainer.prepend(newCustomerField);
-
         }
     }
-
 
     class Customer {
         constructor(name, course, author) {
